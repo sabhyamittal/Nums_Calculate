@@ -14,7 +14,7 @@ setup(
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     author='Sabhya Mittal',
     author_email = 'sabhyamittal26@gmail.com',
-    url='',
+    url='https://github.com/sabhyamittal/Pypi/archive/refs/tags/0.0.1.tar.gz',
     packages=find_packages(),
     classifiers=classifiers,
     license='MIT',
