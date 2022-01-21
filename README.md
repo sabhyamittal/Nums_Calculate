@@ -12,10 +12,8 @@ To create a package, create a folder that is named exactly how you want your pac
 Changelog.txt.<br>
 Now, create a file called __init__.py (again two underscores). Open the file with your text editor of choice. In this file, you write nothing but import statements that have the following schema:<br>
 
-The __init__.py file is used to mark which classes you want the user to access through the package interface. Let’s make an example. Assume you want to upload a library named “MyLib” to PyPi. First, create a Folder called “MyLib” and place your classes inside of it.
-MyLib
--Class1.py
--Class2.py
+The __init__.py file is used to mark which classes you want the user to access through the package interface. <br>
+
 Then, remove all print-statements and all the code that does not sit inside of a class.
 Finally, create the __init.py__-file and import all the methods that the user should access.
 MyLib
